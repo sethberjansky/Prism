@@ -112,155 +112,177 @@ DOCUMENT EXTRACTIONS:
 
 # ── LENS PROMPTS ──────────────────────────────────────────────────────────────
 
-LENS_SYSTEM = """You are Prism, an AI-powered data room intelligence tool for tokenized securities. Generate concise, role-specific analysis from deal data. Use ## headers to separate sections. Be specific — use actual numbers, names, and dates from the data."""
+LENS_SYSTEM = """You are Prism, an AI-powered data room intelligence tool for tokenized securities. Generate concise, role-specific analysis from deal data.
+
+FORMATTING RULES — follow exactly:
+- Use ## headers to separate every section
+- Under each header, use bullet points (- ) for all content — never write prose paragraphs
+- Each bullet is one clear, specific point — one idea per line
+- Lead every bullet with a bold label where applicable: - **Label:** value
+- Use actual numbers, names, and dates from the data — never be vague
+- Keep bullets short — 1-2 lines maximum
+- If a field is unknown or not in the data, write: - Not specified in documents"""
+
 
 def get_executive_prompt(deal_json):
-    return f"""Generate an Executive Summary for this tokenized securities deal. Format with ## section headers. Be direct and actionable.
+    return f"""Generate an Executive Summary for this tokenized securities deal. Use ## headers and bullet points throughout — no prose paragraphs.
 
 ## Deal snapshot
-[Deal name, one-line description, asset class, structure, jurisdiction]
+- Deal name, one-line description, asset class, structure, jurisdiction — one bullet each
 
 ## Key numbers
-[Raise target, pre/post-money valuation, price per token, lockup period, investor type]
+- One bullet per figure: raise target, pre-money valuation, post-money valuation, price per token, total tokens, lockup period, investor type
 
 ## Management
-[Key personnel names and roles, legal counsel]
+- One bullet per person: name and role
+- One bullet for legal counsel
+- One bullet for platform/transfer agent
 
 ## Recommendation
-[GO / CONDITIONAL GO / NO-GO with 2-3 sentence rationale based on the data]
+- **Decision:** GO / CONDITIONAL GO / NO-GO
+- **Rationale:** 2-3 bullet points explaining the decision based on specific data
 
 ## Top risks
-[Top 3 risks numbered, specific to this deal — use actual flags and inconsistencies found]
+- Three numbered bullets, each starting with a bold risk name and specific detail from the data
 
 ## Key dates
-[All material dates in chronological order]
+- One bullet per date in chronological order
 
 DEAL DATA:
 {deal_json}"""
 
 
 def get_legal_prompt(deal_json):
-    return f"""Generate a Legal Review for this tokenized securities deal. Format with ## section headers. Flag every issue clearly.
+    return f"""Generate a Legal Review for this tokenized securities deal. Use ## headers and bullet points throughout — no prose paragraphs.
 
 ## Regulatory framework
-[Exemption type, filing status, investor qualification requirements, transfer restrictions]
+- One bullet each: exemption type, filing status, investor qualification requirements, transfer restrictions
 
 ## Document obligations
-[Material obligations, covenants, and conditions found across documents]
+- One bullet per material obligation, covenant, or condition found across documents
 
 ## Missing documents
-[List every expected document not present — be specific about why each matters legally]
+- One bullet per missing document — include why it matters legally
 
 ## KYC/AML readiness
-[Verification process status, accreditation method, AML screening evidence, gaps]
+- One bullet each: verification process status, accreditation method, AML screening evidence
+- One bullet per gap identified
 
 ## Compliance gaps
-[Every regulatory requirement not yet met — ranked by severity]
+- One bullet per gap, ranked by severity — label each CRITICAL / HIGH / MEDIUM
 
 ## Flags and blockers
-[Every inconsistency, error, or missing item that could block closing or create liability]
+- One bullet per inconsistency, error, or missing item that could block closing
 
 DEAL DATA:
 {deal_json}"""
 
 
 def get_finance_prompt(deal_json):
-    return f"""Generate a Finance Review for this tokenized securities deal. Format with ## section headers. Use specific numbers throughout.
+    return f"""Generate a Finance Review for this tokenized securities deal. Use ## headers and bullet points throughout — no prose paragraphs.
 
 ## Valuation summary
-[Pre-money, post-money, methodology, price per unit/token]
+- One bullet each: pre-money, post-money, methodology, price per unit/token
 
 ## Financial performance
-[Revenue, gross margin, net loss, burn rate, runway — from financial statements]
+- One bullet each: revenue, gross margin, net loss/income, cash position, runway
 
 ## Cap table
-[Ownership breakdown, ESOP pool, committed capital — note any discrepancies in committed amounts]
+- One bullet per ownership tier with percentage and unit count
+- One bullet flagging any discrepancies in committed amounts across documents
 
 ## Projections
-[Revenue projections with years, growth assumptions, use of proceeds breakdown]
+- One bullet per year of revenue projection
+- One bullet on growth assumptions
+- One bullet on use of proceeds breakdown
 
 ## Fee structure
-[Management fees, carry, placement fees, any other economics]
+- One bullet each: management fees, carry, placement fees, preferred return, liquidation preference
 
 ## Financial flags
-[Inconsistencies in financial data across documents, missing audited statements, any concerns]
+- One bullet per inconsistency or concern — be specific with exact figures
 
 DEAL DATA:
 {deal_json}"""
 
 
 def get_bd_prompt(deal_json):
-    return f"""Generate a BD Partner Brief for this tokenized securities deal. This brief will be shared externally with potential partners. Format with ## section headers.
+    return f"""Generate a BD Partner Brief for this tokenized securities deal. Use ## headers and bullet points throughout — no prose paragraphs. This brief will be shared externally with potential partners.
 
-IMPORTANT: Do NOT include any internal flags, compliance gaps, investor names from side letters, or confidential terms. This is partner-facing output only.
+IMPORTANT: Do NOT include any internal flags, compliance gaps, investor names from side letters, or confidential terms. Partner-facing output only.
 
 ## Deal overview
-[What the company does, market opportunity, why this deal is interesting to partners]
+- One bullet on what the company does
+- One bullet on the market opportunity
+- One bullet on why this deal is interesting to partners
 
 ## Structure and terms
-[Deal type, raise amount, price per token, asset class, lockup, investor type — shareable terms only]
+- One bullet each: deal type, raise amount, price per token, asset class, lockup, investor type
 
 ## Tokenization
-[Blockchain, token standard, trading venue, settlement — the technical partnership opportunity]
+- One bullet each: blockchain, token standard, trading venue, settlement mechanism
 
 ## Key parties
-[Issuer, legal counsel, publicly known parties only]
+- One bullet per party: issuer, legal counsel, platform — publicly known parties only
 
 ## Liquidity path
-[Secondary trading structure, ATS details, timeline]
+- One bullet each: secondary trading structure, ATS details, estimated timeline
 
 DEAL DATA:
 {deal_json}"""
 
 
 def get_token_ops_prompt(deal_json):
-    return f"""Generate a Token Operations Assessment for this tokenized securities deal. Format with ## section headers. This is the technical readiness review for tZERO's token ops team.
+    return f"""Generate a Token Operations Assessment for this tokenized securities deal. Use ## headers and bullet points throughout — no prose paragraphs.
 
 ## Token parameters
-[Blockchain, standard, total supply, price per token, token name/symbol if known]
+- One bullet each: blockchain, standard, total supply, price per token, token name/symbol
 
 ## Smart contract configuration
-[Whitelist requirements, geographic restrictions, lockup enforcement, dividend distribution mechanism]
+- One bullet each: whitelist requirements, geographic restrictions, lockup enforcement, dividend distribution mechanism
 
 ## Custody and transfer
-[Custodian, transfer agent, transfer restriction enforcement, ROFR mechanics]
+- One bullet each: custodian, transfer agent, transfer restriction enforcement, ROFR mechanics
 
 ## Secondary trading readiness
-[ATS eligibility, trading model, settlement mechanism, on-chain credential requirements]
+- One bullet each: ATS eligibility, trading model, settlement mechanism, on-chain credential requirements
 
 ## KYC/AML readiness
-[Verification provider, on-chain credential type, screening status, whitelist readiness]
+- One bullet each: verification provider, on-chain credential type, screening status, whitelist readiness
 
 ## Blockers and action items
-[Everything that must be completed before token issuance can proceed — ranked by urgency]
+- One bullet per blocker, ranked CRITICAL / HIGH / MEDIUM — include what must happen before issuance
 
 DEAL DATA:
 {deal_json}"""
 
 
 def get_investor_prompt(deal_json):
-    return f"""Generate an Investor Relations Summary for this tokenized securities deal. Format with ## section headers. Be balanced — present opportunity and risk equally.
+    return f"""Generate an Investor Relations Summary for this tokenized securities deal. Use ## headers and bullet points throughout — no prose paragraphs. Write all dollar amounts with spaces around numbers.
 
 ## The offering
-[What is being offered, by whom, through what structure. Mention tokenization and tZERO. Write all dollar amounts and numbers as plain text with spaces — e.g. "$5,000,000 in Series A" not "$5,000,000inSeriesA". Do not use LaTeX or math formatting.]
+- One bullet each: what is being offered, by whom, through what structure, tokenization platform
 
 ## Investment terms
-[Minimum investment, price per unit/token, total raise, lockup period, liquidation preference, anti-dilution, distribution mechanism]
+- One bullet each: minimum investment, price per token, total raise, lockup period, liquidation preference, anti-dilution, distribution mechanism
 
 ## The company
-[What the company does, market opportunity, current traction, management team backgrounds]
+- One bullet on what the company does
+- One bullet on market opportunity and current traction
+- One bullet per key management team member
 
 ## Risk factors
-[Ranked by severity. Include both stated risks from documents AND risks surfaced by cross-document analysis. Label source.]
+- One bullet per risk, ranked HIGH / MEDIUM / LOW — include source (stated in documents vs flagged by analysis)
 
 ## Returns and distributions
-[Expected returns if stated, distribution mechanism, timing. If no projections stated, say so explicitly.]
+- One bullet each: expected returns, distribution mechanism, timing
+- If no projections stated, say so explicitly
 
 ## Liquidity and exit
-[Lockup expiry, secondary trading path, settlement mechanism]
+- One bullet each: lockup expiry, secondary trading path, settlement mechanism
 
 ## Eligibility
-[Accreditation requirements, geographic restrictions, qualification criteria]
+- One bullet each: accreditation requirements, geographic restrictions, qualification criteria
 
 DEAL DATA:
 {deal_json}"""

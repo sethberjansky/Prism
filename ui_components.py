@@ -3,6 +3,7 @@ Prism — UI Components
 Custom HTML/CSS renderers injected via st.markdown(unsafe_allow_html=True)
 """
 
+import re
 import streamlit as st
 
 TEAL = "#1D9E75"
@@ -54,6 +55,27 @@ def inject_global_css():
     .stMarkdown p { margin-bottom: 0.5rem; }
     </style>
     """, unsafe_allow_html=True)
+
+
+def _sanitize_lens_output(text):
+    """Fix common formatting issues in Claude's lens output."""
+    # Strip backtick code spans — `text` → text (numbers showing as green monospace)
+    text = re.sub(r'`([^`]+)`', r'\1', text)
+    # Escape dollar signs to prevent Streamlit LaTeX math rendering ($5M → \$5M)
+    text = text.replace('$', r'\$')
+    # Strip bold markers (**text**) — replace with just the text
+    text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+    # Strip italic markers (*text*) — replace with just the text
+    text = re.sub(r'\*(.+?)\*', r'\1', text)
+    # Remove any remaining stray asterisks
+    text = re.sub(r'\*+', '', text)
+    # Add space between number and letter running together
+    text = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', text)
+    # Add space between letter/punctuation and number
+    text = re.sub(r'([a-zA-Z,\.])(\d)', r'\1 \2', text)
+    # Fix em dash missing spaces
+    text = re.sub(r'(\S)—(\S)', r'\1 — \2', text)
+    return text
 
 
 def render_header(deal_name=None, doc_count=None):
@@ -179,7 +201,7 @@ def render_lens_content(lens_name, content):
     <div class="lens-content">
     """, unsafe_allow_html=True)
 
-    st.markdown(content)
+    st.markdown(_sanitize_lens_output(content))
     st.markdown('</div>', unsafe_allow_html=True)
 
 

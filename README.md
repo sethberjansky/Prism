@@ -41,7 +41,7 @@ The **Token Ops lens** speaks tZERO's internal language: it references tZERO Sec
 
 Prism doesn't just organize files — it thinks across documents. In our demo data room (a fictional Series A tokenization), Prism automatically identifies:
 
-- **Cross-document inconsistencies** — The cap table says $2.1M committed; the subscription agreement says $1.8M. A $300K discrepancy that could mean unpapered commitments.
+- **Cross-document inconsistencies** — The cap table says $2.1M committed; the subscription agreement says $1.8M; the Form D reports $750K sold. Three documents, three conflicting numbers — a discrepancy that could mean unpapered commitments or a filing error.
 - **Entity name mismatches** — The operating agreement says "NovaTech Inc." but every other document and the Certificate of Formation confirm it's "NovaTech LLC." A template error that could affect enforceability.
 - **Missing compliance documents** — No accredited investor verification letters in the data room. For a Reg D 506(c) offering, self-certification isn't enough — third-party verification is required.
 - **ATS readiness gaps** — The tokenization spec references VerifyInvestor.com for KYC/AML, but no actual screening documentation is present. Can't list on the ATS without it.
@@ -60,6 +60,7 @@ Prism handles the most sensitive documents in a deal — PPMs, subscription agre
 - **Credential isolation.** API keys live in `.streamlit/secrets.toml`, excluded from version control. Zero credentials anywhere in the codebase.
 - **BD confidentiality filter.** The BD lens automatically strips internal risk flags, investor names, side letter terms, and compliance gaps before generating output. You can share the BD export externally without reviewing it for leaks — the filter is built into the AI layer.
 - **Closed prompt surface.** Users upload files. No free-text input is passed to the AI model. This eliminates prompt injection as an attack vector.
+- **Snyk scan: 0 issues, 0 vulnerable paths** across all dependencies.
 
 **What we designed for production:**
 
@@ -79,7 +80,7 @@ Upload PDFs
      ▼
 ┌─────────────────────────────────────────┐
 │  Stage 1a: Per-document extraction      │
-│  One AI call per PDF → structured JSON  │
+│  5 parallel AI calls → structured JSON  │
 │  (type, summary, key terms, flags)      │
 └─────────────────┬───────────────────────┘
                   │
@@ -87,13 +88,13 @@ Upload PDFs
 ┌─────────────────────────────────────────┐
 │  Stage 1b: Cross-document synthesis     │
 │  Deal summary, inconsistencies,         │
-│  missing docs, completeness score       │
+│  missing docs, compliance gaps          │
 └─────────────────┬───────────────────────┘
                   │
                   ▼
 ┌─────────────────────────────────────────┐
 │  Stage 2: Six lens analyses             │
-│  All pre-computed and cached            │
+│  All 6 run in parallel, cached          │
 │  Lens switching = instant, no API call  │
 └─────────────────────────────────────────┘
 ```
@@ -103,18 +104,20 @@ Upload PDFs
 | Web interface | [Streamlit](https://streamlit.io/) | Rapid prototyping, built-in file upload, session state |
 | Document analysis | [Anthropic Claude API](https://docs.anthropic.com/) (Sonnet 4.6) | Strong structured reasoning, reliable JSON, fast |
 | PDF extraction | [pdfplumber](https://github.com/jsvine/pdfplumber) | Clean text extraction from PDF documents |
-| Report export | [fpdf2](https://github.com/py-pdf/fpdf2) | Generates branded PDF reports per lens |
+| Report export | Streamlit download_button | Per-lens markdown export |
 
 ### File structure
 
 ```
 prism/
-├── app.py                  # Main application — four UI states
+├── app.py                  # Main application — four UI states, full pipeline
 ├── prompts.py              # All 8 Claude prompts (extraction, synthesis, 6 lenses)
 ├── pdf_utils.py            # PDF text extraction with error handling
 ├── ui_components.py        # Custom HTML/CSS renderers for cards, stats, lenses
-├── export.py               # PDF report generation with Prism branding
+├── cache_demo.py           # Pre-computes full pipeline for demo backup
+├── generate_samples.py     # Generates 15 NovaTech sample PDFs
 ├── requirements.txt        # Python dependencies
+├── BUILD_LOG.md            # Full build log — decisions, failures, lessons
 ├── sample_docs/            # Demo deal documents (NovaTech Series A)
 └── .streamlit/
     ├── config.toml         # Theme configuration
@@ -125,11 +128,11 @@ prism/
 
 ## Run locally
 
-**Prerequisites:** Python 3.9+
+**Prerequisites:** Python 3.9+, Windows users use `py` instead of `python`
 
 ```bash
-git clone https://github.com/[your-username]/prism.git
-cd prism
+git clone https://github.com/sethberjansky/Prism.git
+cd Prism
 pip install -r requirements.txt
 ```
 
@@ -140,10 +143,16 @@ ANTHROPIC_API_KEY = "sk-ant-..."
 
 Run:
 ```bash
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 Open `http://localhost:8501` in your browser.
+
+**To run with the demo data room (no API key needed after first run):**
+```bash
+py cache_demo.py        # generates demo_cache.json
+py -m streamlit run app.py  # "Load Demo Data" button appears in sidebar
+```
 
 ---
 
@@ -153,7 +162,7 @@ Open `http://localhost:8501` in your browser.
 
 Seth B — Product vision, architecture, UX design, domain expertise
 
-Built with Claude as a genuine AI collaborator. The product concept, the six-lens architecture, the security decisions, and the tZERO-specific domain knowledge are human. The implementation is a real human-AI collaboration.
+Built with Claude as a genuine AI collaborator. The product concept, the six-lens architecture, the security decisions, and the tZERO-specific domain knowledge are human. The implementation is a real human-AI collaboration — every decision documented in BUILD_LOG.md.
 
 ---
 
