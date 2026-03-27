@@ -53,27 +53,32 @@ def inject_global_css():
 
     hr { border-color: #E5E4E0; margin: 1rem 0; }
     .stMarkdown p { margin-bottom: 0.5rem; }
+
+    .lens-content { background:#FFFFFF; border:1px solid #E5E4E0; border-radius:8px; padding:24px 32px; }
+    .lens-content h1, .lens-content h2, .lens-content h3 { letter-spacing:-0.3px; margin-top:1.75rem; margin-bottom:0.5rem; padding-bottom:0.4rem; border-bottom:1px solid #F0EFEB; }
+    .lens-content h1:first-child, .lens-content h2:first-child, .lens-content h3:first-child { margin-top:0; }
+    .lens-content p { line-height:1.75; margin-bottom:0.85rem; color:#2A2A28; max-width:72ch; }
+    .lens-content ul, .lens-content ol { margin-bottom:1rem; padding-left:1.4rem; }
+    .lens-content li { line-height:1.65; margin-bottom:0.35rem; color:#2A2A28; }
+    .lens-content strong { color:#1A1A18; font-weight:600; }
+    .lens-content code { background:#F5F5F2; border:1px solid #E5E4E0; border-radius:3px; padding:1px 5px; font-size:0.88em; color:#1A1A18; }
+    .lens-content hr { border-color:#F0EFEB; margin:1.5rem 0; }
+    .lens-content blockquote { border-left:3px solid #1D9E75; margin:1rem 0; padding:0.5rem 0 0.5rem 1rem; background:#F9FDFB; border-radius:0 4px 4px 0; }
+    .lens-content table { width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:13px; }
+    .lens-content th { background:#F5F5F2; border:1px solid #E5E4E0; padding:8px 12px; text-align:left; font-weight:600; color:#1A1A18; }
+    .lens-content td { border:1px solid #E5E4E0; padding:8px 12px; color:#2A2A28; vertical-align:top; }
+    .lens-content tr:nth-child(even) td { background:#FAFAF9; }
     </style>
     """, unsafe_allow_html=True)
 
 
 def _sanitize_lens_output(text):
     """Fix common formatting issues in Claude's lens output."""
-    # Strip backtick code spans — `text` → text (numbers showing as green monospace)
-    text = re.sub(r'`([^`]+)`', r'\1', text)
-    # Escape dollar signs to prevent Streamlit LaTeX math rendering ($5M → \$5M)
-    text = text.replace('$', r'\$')
-    # Strip bold markers (**text**) — replace with just the text
     text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
-    # Strip italic markers (*text*) — replace with just the text
     text = re.sub(r'\*(.+?)\*', r'\1', text)
-    # Remove any remaining stray asterisks
     text = re.sub(r'\*+', '', text)
-    # Add space between number and letter running together
     text = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', text)
-    # Add space between letter/punctuation and number
-    text = re.sub(r'([a-zA-Z,\.])(\d)', r'\1 \2', text)
-    # Fix em dash missing spaces
+    text = re.sub(r'([a-zA-Z,\.])(\$?\d)', r'\1 \2', text)
     text = re.sub(r'(\S)—(\S)', r'\1 — \2', text)
     return text
 
@@ -180,29 +185,7 @@ def render_lens_header(lens_name, deal_name=None):
 def render_lens_content(lens_name, content):
     if lens_name == "BD":
         st.markdown(f'<div style="background:#FFFBEB;border:1px solid #FDE68A;border-radius:6px;padding:10px 14px;margin-bottom:1rem;display:flex;align-items:center;gap:8px;"><span style="color:#D97706;">&#9670;</span><span style="font-size:12px;color:#78350F;font-weight:500;">Confidentiality filter active &mdash; internal flags, investor names, and compliance gaps excluded from this view</span></div>', unsafe_allow_html=True)
-
-    st.markdown("""
-    <style>
-    .lens-content { background:#FFFFFF; border:1px solid #E5E4E0; border-radius:8px; padding:24px 32px; }
-    .lens-content h1, .lens-content h2, .lens-content h3 { letter-spacing:-0.3px; margin-top:1.75rem; margin-bottom:0.5rem; padding-bottom:0.4rem; border-bottom:1px solid #F0EFEB; }
-    .lens-content h1:first-child, .lens-content h2:first-child, .lens-content h3:first-child { margin-top:0; }
-    .lens-content p { line-height:1.75; margin-bottom:0.85rem; color:#2A2A28; max-width:72ch; }
-    .lens-content ul, .lens-content ol { margin-bottom:1rem; padding-left:1.4rem; }
-    .lens-content li { line-height:1.65; margin-bottom:0.35rem; color:#2A2A28; }
-    .lens-content strong { color:#1A1A18; font-weight:600; }
-    .lens-content code { background:#F5F5F2; border:1px solid #E5E4E0; border-radius:3px; padding:1px 5px; font-size:0.88em; color:#1A1A18; }
-    .lens-content hr { border-color:#F0EFEB; margin:1.5rem 0; }
-    .lens-content blockquote { border-left:3px solid #1D9E75; margin:1rem 0; padding:0.5rem 0 0.5rem 1rem; background:#F9FDFB; border-radius:0 4px 4px 0; }
-    .lens-content table { width:100%; border-collapse:collapse; margin-bottom:1rem; font-size:13px; }
-    .lens-content th { background:#F5F5F2; border:1px solid #E5E4E0; padding:8px 12px; text-align:left; font-weight:600; color:#1A1A18; }
-    .lens-content td { border:1px solid #E5E4E0; padding:8px 12px; color:#2A2A28; vertical-align:top; }
-    .lens-content tr:nth-child(even) td { background:#FAFAF9; }
-    </style>
-    <div class="lens-content">
-    """, unsafe_allow_html=True)
-
     st.markdown(_sanitize_lens_output(content))
-    st.markdown('</div>', unsafe_allow_html=True)
 
 
 def render_empty_state():

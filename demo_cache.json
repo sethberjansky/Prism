@@ -4,21 +4,20 @@
       "filename": "articles_of_incorporation.pdf",
       "document_type": "articles of incorporation",
       "category": "Corporate Governance",
-      "summary": "Certificate of Formation for NovaTech LLC filed in Delaware establishing a limited liability company for carbon credit verification services with authority to issue Common Units and Preferred Units.",
+      "summary": "Certificate of Formation for NovaTech LLC, a Delaware limited liability company focused on carbon credit verification services, filed January 15, 2024.",
       "key_terms": [
         "NovaTech LLC",
-        "limited liability company",
+        "Delaware",
         "carbon credit verification services",
         "Common Units",
         "Preferred Units",
         "Board of Managers",
-        "Corporation Service Company",
-        "registered agent"
+        "Corporation Service Company"
       ],
-      "obligations": null,
+      "obligations": "Company authorized to issue Common Units and Preferred Units with rights determined by Board of Managers",
       "dates": [
         "Filing date: January 15, 2024",
-        "Executed date: January 15, 2024"
+        "Execution date: January 15, 2024"
       ],
       "dollar_amounts": [],
       "parties_mentioned": [
@@ -35,25 +34,16 @@
       "filename": "blue_sky_memo.pdf",
       "document_type": "legal opinion",
       "category": "Legal",
-      "summary": "Blue sky memorandum from Kirkland & Ellis analyzing state securities law compliance for NovaTech LLC's Series A Preferred Units offering across twelve states.",
+      "summary": "Blue Sky compliance memorandum analyzing state securities law exemptions for NovaTech LLC's Series A Preferred Units offering across twelve states.",
       "key_terms": [
         "Series A Preferred Units",
         "Rule 506(c) of Regulation D",
         "verified accredited investors",
-        "Section 25102(f)",
-        "NYSA Section 359-ff",
-        "Texas Securities Act Section 5.F",
-        "Florida Securities Act Section 517.061(11)",
-        "Illinois Securities Act Section 4(G)",
-        "MGL Chapter 110A Section 402(b)(9)",
-        "RCW 21.20.320(9)",
-        "CRS 11-51-308(1)(p)",
-        "OCGA 10-5-12(13)",
-        "NCGS 78A-17(9)",
-        "VA Code 13.1-514(B)(13)",
-        "NJSA 49:3-50(b)(11)"
+        "Section 25102(f) exemption",
+        "NYSA Section 359-ff exemption",
+        "Texas Securities Act Section 5.F exemption"
       ],
-      "obligations": "All exemptions are conditioned on the offering being conducted in compliance with Rule 506(c) of Regulation D, including the requirement that all purchasers be verified accredited investors; Notice filings required in California, New York, Texas, Florida, Illinois",
+      "obligations": "Offering must be conducted in compliance with Rule 506(c) of Regulation D, including the requirement that all purchasers be verified accredited investors; notice filings required in California, New York, Texas, Florida, Illinois",
       "dates": [
         "Memorandum date: January 12, 2026"
       ],
@@ -70,24 +60,22 @@
       "filename": "board_resolution_jan2026.pdf",
       "document_type": "board resolution",
       "category": "Corporate Governance",
-      "summary": "Board resolution of NovaTech LLC authorizing a $5,000,000 Series A Preferred Units offering with tokenization through tZERO infrastructure.",
+      "summary": "Unanimous written consent of NovaTech LLC board authorizing Series A Preferred Units offering and tokenization through tZERO platform.",
       "key_terms": [
-        "Series A Preferred Units",
         "$5,000,000 offering amount",
         "$4.50 per unit price",
         "Rule 506(c) of Regulation D",
         "ERC-1400 security token standard",
         "Ethereum blockchain",
-        "tZERO regulated infrastructure",
-        "January 10, 2026 execution date"
+        "Series A Preferred Units"
       ],
-      "obligations": "Company authorized to offer and sell Series A Preferred Units, tokenize units using ERC-1400 standard, enter agreements with tZERO entities, and engage Kirkland & Ellis LLP as legal counsel",
+      "obligations": "Company authorized to offer and sell Series A Preferred Units, tokenize units using ERC-1400 standard, enter into agreements with tZERO entities, and engage Kirkland & Ellis LLP as legal counsel",
       "dates": [
-        "Board resolution date: January 10, 2026",
+        "Resolution date: January 10, 2026",
         "Execution date: January 10, 2026"
       ],
       "dollar_amounts": [
-        "$5,000,000 Series A Preferred Units offering amount",
+        "$5,000,000 aggregate offering amount",
         "$4.50 per unit price"
       ],
       "parties_mentioned": [
@@ -101,70 +89,78 @@
         "Raj Patel"
       ],
       "confidentiality": "internal only",
-      "flags": null,
+      "flags": [],
       "confidence": "high"
     },
     {
       "filename": "business_plan_2026.pdf",
       "document_type": "business plan",
       "category": "Management",
-      "summary": "Business plan for NovaTech LLC outlining their AI-powered carbon credit verification platform with revenue projections through 2028 and Series A funding strategy.",
+      "summary": "Business plan for NovaTech LLC outlining their AI-powered carbon credit verification platform, market opportunity, financial projections, and Series A funding use of proceeds.",
       "key_terms": [
         "$50 billion market projection by 2030",
-        "$2 billion market size in 2022",
+        "$2 billion current market size in 2022",
         "70% reduction in audit time",
         "14 current enterprise customers",
         "$1,200,000 annual recurring revenue",
         "118% net revenue retention",
-        "Series A funding",
-        "Fortune 500 targeting",
-        "Big 4 partnerships"
+        "$3,200,000 revenue projection for 2026",
+        "$8,500,000 revenue projection for 2027",
+        "$18,000,000 revenue projection for 2028",
+        "Series A funding round",
+        "40% platform development allocation",
+        "25% sales and marketing allocation",
+        "20% operations allocation",
+        "15% reserve allocation"
       ],
       "obligations": null,
       "dates": [
         "Market projection: 2030",
-        "Market baseline: 2022",
+        "Current market baseline: 2022",
         "Revenue projection: 2026",
         "Revenue projection: 2027",
         "Revenue projection: 2028"
       ],
       "dollar_amounts": [
-        "$50 billion voluntary carbon credit market by 2030",
-        "$2 billion market size in 2022",
+        "$50 billion market projection by 2030",
+        "$2 billion current market size in 2022",
         "$1,200,000 annual recurring revenue",
-        "$3,200,000 projected 2026 revenue",
-        "$8,500,000 projected 2027 revenue",
-        "$18,000,000 projected 2028 revenue"
+        "$3,200,000 revenue projection for 2026",
+        "$8,500,000 revenue projection for 2027",
+        "$18,000,000 revenue projection for 2028"
       ],
       "parties_mentioned": [
         "NovaTech LLC",
         "Javier Martinez",
         "Sarah Chen",
         "Raj Patel",
-        "Stanford MBA",
-        "MIT",
-        "Wharton MBA",
         "Fortune 500",
-        "Big 4 accounting firms"
+        "Big 4 accounting firms",
+        "Stanford",
+        "MIT",
+        "Wharton"
       ],
       "confidentiality": "shareable",
-      "flags": [],
+      "flags": null,
       "confidence": "high"
     },
     {
       "filename": "cap_table_march_2026.pdf",
       "document_type": "cap table",
       "category": "Financial",
-      "summary": "Capitalization table for NovaTech LLC showing ownership structure as of March 2026 including pre-Series A breakdown and Series A offering status.",
+      "summary": "Capitalization table for NovaTech LLC showing ownership breakdown as of March 2026 with pre-money valuation of $18M and ongoing Series A fundraising.",
       "key_terms": [
-        "Pre-money valuation: $18,000,000",
-        "Post-money valuation: $23,000,000",
-        "Total units outstanding: 4,000,000",
-        "Series A units offered: 1,111,111",
-        "Price per unit: $4.50",
-        "Founders ownership: 62.0%",
-        "Seed investors ownership: 23.0%",
-        "ESOP: 15.0%"
+        "$18,000,000 pre-money valuation",
+        "$23,000,000 post-money valuation",
+        "4,000,000 total units outstanding",
+        "1,111,111 Series A units offered",
+        "$4.50 price per unit",
+        "35.0% CEO ownership",
+        "18.0% CTO ownership",
+        "9.0% CFO ownership",
+        "12.0% Meridian Ventures ownership",
+        "15.0% ESOP total",
+        "$750,000 anchor investment"
       ],
       "obligations": "All units are subject to applicable transfer restrictions",
       "dates": [
@@ -174,8 +170,8 @@
         "$18,000,000 pre-money valuation",
         "$23,000,000 post-money valuation",
         "$4.50 price per unit",
-        "$2,100,000 subscriptions received to date",
-        "$750,000 Meridian Ventures Fund II anchor investment"
+        "$2,100,000 subscriptions received",
+        "$750,000 Meridian Ventures anchor investment"
       ],
       "parties_mentioned": [
         "NovaTech LLC",
@@ -185,35 +181,37 @@
         "Meridian Ventures Fund II, LP"
       ],
       "confidentiality": "internal only",
-      "flags": [],
+      "flags": [
+        "Series A fundraising appears incomplete with only $2.1M of $5M target raised"
+      ],
       "confidence": "high"
     },
     {
       "filename": "financial_statements_2025.pdf",
       "document_type": "financial statements (unaudited)",
       "category": "Financial",
-      "summary": "Unaudited financial statements for NovaTech LLC showing fiscal year 2025 results with $1,200,000 in SaaS revenue, net loss of $340,000, and 18-month cash runway.",
+      "summary": "Unaudited financial statements for NovaTech LLC for fiscal year 2025 showing $1.2M in SaaS revenue, $340K net loss, and $890K cash position.",
       "key_terms": [
         "76.7% gross margin",
-        "18 months cash runway",
-        "$50,000 monthly burn rate",
-        "$1,200,000 annual recurring revenue",
-        "December 31, 2025 fiscal year end"
+        "Monthly burn rate: approximately $50,000",
+        "Cash runway: approximately 18 months",
+        "Annual Recurring Revenue: $1,200,000",
+        "Net Loss: ($340,000)"
       ],
       "obligations": null,
       "dates": [
         "Fiscal Year Ending December 31, 2025",
-        "Balance Sheet December 31, 2025"
+        "Balance Sheet as of December 31, 2025"
       ],
       "dollar_amounts": [
         "$1,200,000 SaaS Subscription Revenue",
-        "$280,000 cloud infrastructure and delivery",
+        "$280,000 Cost of Goods Sold",
         "$920,000 Gross Profit",
         "$520,000 Research & Development",
         "$380,000 Sales & Marketing",
         "$360,000 General & Administrative",
         "$1,260,000 Total OpEx",
-        "$340,000 Net Loss",
+        "($340,000) Net Loss",
         "$890,000 Cash and Cash Equivalents",
         "$165,000 Accounts Receivable",
         "$45,000 Other Current Assets",
@@ -223,15 +221,14 @@
         "$115,000 Accrued Liabilities",
         "$210,000 Total Liabilities",
         "$1,210,000 Members' Equity",
-        "$50,000 Monthly Burn Rate",
-        "$1,200,000 Annual Recurring Revenue"
+        "$50,000 Monthly Burn Rate"
       ],
       "parties_mentioned": [
         "NovaTech LLC"
       ],
       "confidentiality": "shareable",
       "flags": [
-        "unaudited statements prepared by management"
+        "unaudited statements - prepared by management only"
       ],
       "confidence": "high"
     },
@@ -239,19 +236,21 @@
       "filename": "form_d_filing.pdf",
       "document_type": "Form D",
       "category": "Compliance",
-      "summary": "SEC Form D filing providing notice of an exempt offering of LLC interests by NovaTech LLC under Rule 506(c) of Regulation D for an aggregate offering amount of $5,000,000.",
+      "summary": "SEC Form D filing for NovaTech LLC's exempt offering of LLC interests under Rule 506(c) of Regulation D, seeking to raise $5,000,000 with $750,000 already sold to one investor.",
       "key_terms": [
         "Rule 506(c) of Regulation D",
         "LLC Interests",
-        "Delaware Limited Liability Company",
+        "$5,000,000 aggregate offering amount",
+        "$750,000 amount sold",
+        "1 investor",
         "12 states of sale",
-        "exempt offering",
-        "Regulation D"
+        "Delaware jurisdiction",
+        "2024 incorporation year"
       ],
       "obligations": null,
       "dates": [
-        "Filing date: January 15, 2026",
         "Date of First Sale: January 20, 2026",
+        "Date of Filing: January 15, 2026",
         "Year of Incorporation: 2024"
       ],
       "dollar_amounts": [
@@ -266,31 +265,33 @@
         "Securities and Exchange Commission"
       ],
       "confidentiality": "public",
-      "flags": [],
+      "flags": [
+        "Date of First Sale (January 20, 2026) is after Date of Filing (January 15, 2026)"
+      ],
       "confidence": "high"
     },
     {
       "filename": "investor_questionnaire_template.pdf",
       "document_type": "investor questionnaire",
       "category": "Compliance",
-      "summary": "Accredited investor questionnaire template for NovaTech LLC's Rule 506(c) offering to verify investor eligibility and suitability.",
+      "summary": "Accredited investor questionnaire template for NovaTech LLC's Rule 506(c) offering to verify investor accreditation status and assess investment suitability.",
       "key_terms": [
-        "Rule 506(c) offering",
         "$200,000 annual income threshold",
-        "$300,000 joint income threshold",
+        "$300,000 joint annual income threshold",
         "$1,000,000 net worth threshold",
         "$5,000,000 entity assets threshold",
+        "Rule 506(c) offering",
         "Series 7, 65, or 82 license",
         "third-party verification requirement",
         "VerifyInvestor.com"
       ],
-      "obligations": "Investor must provide third-party verification of accredited status as Rule 506(c) requires verification beyond self-certification",
-      "dates": null,
+      "obligations": "Investors must meet accredited investor criteria, provide third-party verification of status, acknowledge receipt of Private Placement Memorandum, understand investment risks and illiquidity, and certify investment is for own account",
+      "dates": [],
       "dollar_amounts": [
-        "$200,000 annual income threshold for individuals",
+        "$200,000 individual annual income threshold",
         "$300,000 joint annual income threshold with spouse",
         "$1,000,000 net worth threshold excluding primary residence",
-        "$5,000,000 total assets threshold for entities"
+        "$5,000,000 entity total assets threshold"
       ],
       "parties_mentioned": [
         "NovaTech LLC",
@@ -298,8 +299,8 @@
       ],
       "confidentiality": "internal only",
       "flags": [
-        "incomplete sections - template with blank fields requiring completion",
-        "missing signatures - template requires investor signature"
+        "incomplete template - signature fields are blank",
+        "requires third-party verification per Rule 506(c)"
       ],
       "confidence": "high"
     },
@@ -307,20 +308,20 @@
       "filename": "management_bios.pdf",
       "document_type": "management bios",
       "category": "Management",
-      "summary": "Management team biographies for NovaTech LLC describing executive and advisory board members' backgrounds and qualifications.",
+      "summary": "Management team biographies for NovaTech LLC detailing the backgrounds and qualifications of executive leadership and advisory board members.",
       "key_terms": [
-        "12 years of experience",
-        "15 years of distributed systems experience",
-        "10 years of venture finance experience",
-        "20 years of structured finance experience",
-        "January 2024",
+        "12 years experience",
+        "15 years distributed systems experience",
+        "10 years venture finance experience",
+        "20 years structured finance experience",
         "Series B-stage",
-        "AI-powered verification",
-        "blockchain integration"
+        "January 2024",
+        "acquired by Salesforce in 2022"
       ],
       "obligations": null,
       "dates": [
-        "Company founding: January 2024"
+        "Company founding: January 2024",
+        "Salesforce acquisition: 2022"
       ],
       "dollar_amounts": [],
       "parties_mentioned": [
@@ -347,46 +348,47 @@
     {
       "filename": "operating_agreement_v3.pdf",
       "document_type": "operating agreement",
-      "category": "Corporate Governance",
-      "summary": "Amended and restated operating agreement for NovaTech Inc., a Delaware LLC, establishing management structure, voting requirements, distribution waterfall, and member obligations.",
+      "category": "Legal",
+      "summary": "Amended and Restated Operating Agreement for NovaTech Inc., a Delaware LLC, establishing management structure, voting requirements, distribution waterfall, and member obligations.",
       "key_terms": [
         "67% approval threshold for major decisions",
         "8% preferred return to Series A holders",
         "24-month non-compete period",
-        "5% ownership threshold for non-compete",
-        "Right of first refusal",
+        "5% unit ownership threshold",
+        "Right of first refusal on transfers",
         "Manager-managed structure"
       ],
-      "obligations": "Manager consent required for unit transfers; members with more than 5% ownership subject to 24-month non-compete following departure; all transfers must comply with securities laws; right of first refusal applies to proposed unit transfers",
+      "obligations": "Manager consent required for unit transfers; members with >5% ownership subject to 24-month non-compete; all transfers must comply with securities laws; right of first refusal applies to proposed transfers; major decisions require 67% approval",
       "dates": null,
       "dollar_amounts": null,
       "parties_mentioned": [
         "NovaTech Inc.",
-        "Javier Martinez",
-        "Series A holders"
+        "Javier Martinez"
       ],
       "confidentiality": "internal only",
-      "flags": null,
+      "flags": [
+        "Document shows entity type inconsistency - title says 'NovaTech Inc.' but subtitle indicates Delaware Limited Liability Company"
+      ],
       "confidence": "high"
     },
     {
       "filename": "private_placement_memo.pdf",
       "document_type": "PPM",
       "category": "Legal",
-      "summary": "Private placement memorandum for NovaTech LLC's $5,000,000 Series A Preferred Units offering to accredited investors, with planned tokenization on tZERO's platform.",
+      "summary": "Private placement memorandum for NovaTech LLC's Series A Preferred Units offering up to $5,000,000 to accredited investors for an AI-powered carbon credit verification platform.",
       "key_terms": [
-        "$5,000,000 aggregate offering amount",
-        "$4.50 per unit price",
-        "1,111,111 units offered",
+        "Series A Preferred Units",
+        "$4.50 per unit",
         "$25,000 minimum investment",
-        "$18,000,000 pre-money valuation",
-        "$23,000,000 post-money valuation",
-        "12 months lockup period",
         "Rule 506(c)",
+        "accredited investors only",
+        "12 months lockup period",
+        "70% audit time reduction",
         "ERC-1400 security tokens",
-        "70% audit time reduction"
+        "tZERO regulated infrastructure",
+        "Delaware limited liability company"
       ],
-      "obligations": "12 months lockup period for investors, accredited investor qualification requirement under Rule 506(c), planned tokenization via tZERO regulated infrastructure following closing",
+      "obligations": "12 months lockup period for investors, accredited investor qualification requirement under Rule 506(c), confidentiality restrictions on document distribution",
       "dates": [
         "Company formation: January 2024",
         "CarbonTrack acquisition by Salesforce: 2022"
@@ -403,20 +405,20 @@
         "Javier Martinez",
         "Sarah Chen",
         "Raj Patel",
+        "Kirkland & Ellis LLP",
+        "tZERO",
         "CarbonTrack",
         "Salesforce",
         "Stanford GSB",
         "AWS",
         "MIT",
-        "Wharton",
-        "tZERO",
-        "Kirkland & Ellis LLP"
+        "Wharton"
       ],
       "confidentiality": "internal only",
       "flags": [
-        "No specific closing date provided",
-        "Tokenization timeline not specified",
-        "No definitive commitment for tZERO listing mentioned"
+        "Missing specific closing date",
+        "No mention of placement agent or finder's fees",
+        "Tokenization timeline not specified"
       ],
       "confidence": "high"
     },
@@ -424,20 +426,17 @@
       "filename": "series_a_subscription_agreement.pdf",
       "document_type": "subscription agreement",
       "category": "Legal",
-      "summary": "Series A Preferred Units subscription agreement for NovaTech LLC establishing terms for investor subscription including pricing, rights, and transfer restrictions.",
+      "summary": "Series A Preferred Units subscription agreement for NovaTech LLC establishing investment terms, subscriber representations, and transfer restrictions.",
       "key_terms": [
-        "$4.50 price per unit",
+        "$4.50 per unit price",
         "12 months lockup period",
-        "weighted average broad-based anti-dilution",
-        "67% majority vote for drag-along rights",
-        "pro-rata rights for future rounds",
-        "accredited investor requirement",
-        "Rule 501 compliance"
+        "Weighted average broad-based anti-dilution",
+        "67% majority vote for drag-along",
+        "Pro-rata rights",
+        "Rule 501 accredited investor requirement"
       ],
-      "obligations": "Subscriber must be accredited investor under Rule 501, review Private Placement Memorandum, comply with transfer restrictions and 12-month lockup period, obtain manager consent for transfers, bear economic risk of investment",
-      "dates": [
-        "12 months lockup period from closing"
-      ],
+      "obligations": "Subscriber must be accredited investor under Rule 501, review Private Placement Memorandum, comply with 12-month lockup period, obtain manager consent for transfers, comply with securities laws for transfers",
+      "dates": [],
       "dollar_amounts": [
         "$4.50 price per unit",
         "$1,800,000 aggregate subscriptions received to date"
@@ -448,8 +447,8 @@
       ],
       "confidentiality": "internal only",
       "flags": [
-        "missing signatures noted as required",
-        "approximate subscription amount suggests incomplete data"
+        "Missing signatures noted as required",
+        "Incomplete sections - no closing date specified"
       ],
       "confidence": "high"
     },
@@ -457,18 +456,21 @@
       "filename": "side_letter_anchor.pdf",
       "document_type": "side letter",
       "category": "Legal",
-      "summary": "Side letter agreement between NovaTech LLC and Meridian Ventures Fund II, LP granting anchor investor special rights including most favored nation clause, board observer rights, enhanced reporting, and co-investment rights for a $750,000 investment.",
+      "summary": "Side letter agreement between NovaTech LLC and Meridian Ventures Fund II, LP granting anchor investor special rights including board observer rights, information rights, most favored nation clause, and co-investment rights.",
       "key_terms": [
         "$750,000 investment amount",
         "$4.50 price per unit",
-        "50% initial investment threshold for board observer rights",
+        "50% threshold for board observer rights",
         "45 days for quarterly reports",
         "90 days for audited financials",
         "$2,000,000 co-investment right",
-        "most favored nation clause"
+        "most favored nation clause",
+        "board observer rights",
+        "information rights",
+        "co-investment rights"
       ],
-      "obligations": "NovaTech LLC must provide quarterly financial reports within 45 days of quarter end and annual audited financials within 90 days of fiscal year end; provide access to financial statements, budgets, and material business information upon reasonable request; honor most favored nation clause by offering any more favorable terms to Meridian; maintain confidentiality of side letter terms",
-      "dates": null,
+      "obligations": "NovaTech LLC must provide quarterly financial reports within 45 days of quarter end and annual audited financials within 90 days of fiscal year end; must provide any more favorable terms offered to other investors; must provide access to financial statements, budgets, and material business information upon reasonable request; must maintain confidentiality of side letter terms",
+      "dates": [],
       "dollar_amounts": [
         "$750,000 investment amount",
         "$4.50 price per unit",
@@ -481,8 +483,8 @@
       ],
       "confidentiality": "internal only",
       "flags": [
-        "missing signatures",
-        "no execution date specified"
+        "missing execution date",
+        "missing signatures"
       ],
       "confidence": "high"
     },
@@ -490,7 +492,7 @@
       "filename": "term_sheet_final.pdf",
       "document_type": "term sheet",
       "category": "Legal",
-      "summary": "Non-binding Series A Preferred Units term sheet for NovaTech LLC outlining key investment terms including $5M raise at $4.50 per unit with governance and investor rights provisions.",
+      "summary": "A non-binding term sheet outlining Series A Preferred Units offering terms for NovaTech LLC's $5,000,000 fundraising round.",
       "key_terms": [
         "Series A Preferred Units",
         "$5,000,000 offering amount",
@@ -499,12 +501,13 @@
         "1,111,111 units",
         "1x non-participating preferred liquidation preference",
         "weighted average broad-based anti-dilution",
-        "67% majority vote drag-along trigger",
+        "67% majority vote drag-along threshold",
         "$2,000,000 qualifying investment threshold",
-        "Rule 506(c) accreditation requirement"
+        "Rule 506(c) accreditation requirement",
+        "tZERO tokenization setup"
       ],
-      "obligations": "Closing conditions require completion of tZERO tokenization setup, legal due diligence, execution of definitive agreements, and investor accreditation verification per Rule 506(c)",
-      "dates": [],
+      "obligations": "Completion of tZERO tokenization setup and token issuance agreement, satisfactory completion of legal due diligence, execution of definitive agreements, investor accreditation verification per Rule 506(c)",
+      "dates": null,
       "dollar_amounts": [
         "$5,000,000 offering amount",
         "$18,000,000 pre-money valuation",
@@ -526,17 +529,19 @@
       "filename": "tokenization_spec.pdf",
       "document_type": "smart contract spec",
       "category": "Tokenization",
-      "summary": "Technical specification document for tokenizing NovaTech LLC Series A Preferred Units using ERC-1400 security token standard on Ethereum blockchain.",
+      "summary": "Technical specification document detailing blockchain parameters, smart contract requirements, and compliance framework for tokenizing NovaTech LLC Series A Preferred Units using ERC-1400 standard.",
       "key_terms": [
-        "1,111,111 tokens total supply",
-        "$4.50 price per token",
-        "ERC-1400 security token standard",
+        "ERC-1400",
+        "1,111,111 tokens",
+        "$4.50 per token",
+        "NVTK-A",
         "12-month transfer restriction",
         "accredited investors only",
-        "United States and EMEA geographic restrictions",
-        "NVTK-A token name"
+        "whitelist enforcement",
+        "tZERO Securities ATS",
+        "on-chain credential required"
       ],
-      "obligations": "AML screening required prior to whitelist addition; KYC/AML documentation and third-party accreditation verification letters required prior to ATS listing and secondary trading enablement; manager consent and whitelist verification required for all transfers",
+      "obligations": "Whitelist enforcement for accredited investors only, geographic restrictions excluding sanctioned jurisdictions, 12-month transfer lockup enforced at contract level, manager consent required for all transfers, KYC/AML documentation required prior to ATS listing",
       "dates": null,
       "dollar_amounts": [
         "$4.50 price per token"
@@ -546,13 +551,13 @@
         "tZERO Digital Asset Securities, LLC",
         "tZERO Transfer Services, LLC",
         "tZERO Securities ATS",
-        "VerifyInvestor.com",
-        "On-ChainPass"
+        "VerifyInvestor.com"
       ],
       "confidentiality": "internal only",
       "flags": [
-        "KYC/AML provider marked as planned - not yet confirmed",
-        "On-chain credential system marked as planned - not yet implemented"
+        "KYC/AML verification provider marked as planned",
+        "On-chain credential system marked as planned",
+        "KYC/AML documentation requirement noted but not yet implemented"
       ],
       "confidence": "high"
     }
@@ -566,100 +571,97 @@
       "parties": [
         "NovaTech LLC",
         "Meridian Ventures Fund II, LP",
+        "Kirkland & Ellis LLP",
         "tZERO Securities, LLC",
         "tZERO Transfer Services, LLC",
-        "tZERO Digital Asset Securities, LLC",
-        "Kirkland & Ellis LLP"
+        "tZERO Digital Asset Securities, LLC"
       ],
       "key_personnel": [
         "Javier Martinez - CEO",
         "Sarah Chen - CTO",
-        "Raj Patel - CFO",
-        "Dr. Lisa Huang - Advisor",
-        "Mark Thompson - Advisor"
+        "Raj Patel - CFO"
       ],
       "jurisdiction": "Delaware",
-      "deal_description": "AI-powered carbon credit verification platform raising $5M Series A at $18M pre-money valuation with planned tokenization on tZERO platform"
+      "deal_description": "AI-powered carbon credit verification platform raising $5M in tokenized Series A Preferred Units"
     },
     "regulatory": {
       "framework": "Reg D 506(c)",
-      "exemption_details": "Rule 506(c) of Regulation D - general solicitation permitted with verified accredited investors",
+      "exemption_details": "General solicitation permitted with verified accredited investors only",
       "investor_qualifications": "accredited",
       "filing_status": "filed",
-      "transfer_restrictions": "12-month lockup period, manager consent required, securities law compliance, right of first refusal applies"
+      "transfer_restrictions": "12-month lockup period, manager consent required, right of first refusal"
     },
     "financial_data": {
-      "revenue": "$1,200,000 ARR with 76.7% gross margin",
-      "valuation": "$18,000,000 pre-money, $23,000,000 post-money - methodology not specified",
-      "projections": "$3.2M (2026), $8.5M (2027), $18M (2028) revenue projections",
-      "fee_structure": "SaaS subscription model",
-      "financial_statements": "Unaudited 2025 statements showing $340K net loss, $890K cash, 18-month runway at $50K monthly burn"
+      "revenue": "$1,200,000 ARR (2025), 76.7% gross margin",
+      "valuation": "$18,000,000 pre-money, $23,000,000 post-money",
+      "projections": "$3,200,000 (2026), $8,500,000 (2027), $18,000,000 (2028)",
+      "fee_structure": "Not specified",
+      "financial_statements": "Unaudited 2025 statements showing $340K net loss, $890K cash, 18-month runway"
     },
     "tokenization_parameters": {
       "blockchain": "Ethereum",
       "token_standard": "ERC-1400",
       "total_supply": "1,111,111 tokens",
       "price_per_token": "$4.50",
-      "distribution_mechanism": "not specified",
+      "distribution_mechanism": "8% preferred return to Series A holders",
       "custody_arrangement": "SPBD",
       "liquidity_path": "ATS CLOB",
       "transfer_agent": "tZERO Transfer Services, LLC",
       "settlement_mechanism": "on-chain instant",
-      "geographic_restrictions": "United States and EMEA only",
-      "cap_table_summary": "4M units outstanding pre-Series A: 62% founders, 23% seed investors, 15% ESOP"
+      "geographic_restrictions": "Excluding sanctioned jurisdictions",
+      "cap_table_summary": "4,000,000 total units outstanding, Series A represents 1,111,111 additional units"
     },
     "offering_terms": {
       "minimum_investment": "$25,000",
       "maximum_raise": "$5,000,000",
-      "expected_returns": "1x non-participating preferred liquidation preference with 8% preferred return",
+      "expected_returns": "8% preferred return, 1x non-participating liquidation preference",
       "risk_factors": [
-        "early stage company losses",
-        "competitive market",
-        "technology risk",
-        "regulatory changes",
-        "limited liquidity"
+        "Market competition",
+        "Technology risks",
+        "Regulatory changes",
+        "Liquidity limitations"
       ],
-      "use_of_proceeds": "not specified in documents",
+      "use_of_proceeds": "40% platform development, 25% sales/marketing, 20% operations, 15% reserve",
       "lockup_period": "12 months"
     },
     "kyc_aml_readiness": {
       "verification_process_present": true,
       "accreditation_method": "506(c) third-party",
-      "aml_screening_evidenced": true,
+      "aml_screening_evidenced": false,
       "gaps": [
-        "KYC/AML provider selection pending",
-        "On-chain credential system not implemented",
-        "Specific AML screening procedures not documented"
+        "KYC/AML documentation requirement noted but not yet implemented",
+        "KYC/AML verification provider marked as planned"
       ]
     },
     "cross_document_analysis": {
       "missing_documents": [
-        "audited financial statements",
-        "IP assignments",
-        "employment agreements",
-        "customer contracts",
-        "technology licenses",
-        "regulatory compliance certificates",
-        "insurance policies"
+        "Audited financial statements",
+        "Tax returns",
+        "Intellectual property assignments",
+        "Customer contracts",
+        "Executed subscription agreements with signatures"
       ],
       "inconsistencies": [
         "Entity name inconsistency: 'NovaTech Inc.' in operating agreement vs 'NovaTech LLC' in all other documents",
-        "Subscription amounts vary: $1,800,000 in subscription agreement vs $2,100,000 in cap table vs $750,000 in Form D"
+        "Cap table shows $2,100,000 raised vs Form D shows $750,000 sold",
+        "Subscription agreement shows $1,800,000 received vs cap table $2,100,000",
+        "Form D filing date (January 15, 2026) before first sale date (January 20, 2026)"
       ],
       "compliance_gaps": [
-        "Audited financial statements required for institutional investors",
-        "No specific AML screening procedures documented",
-        "Missing executed subscription agreements and side letters"
+        "Missing executed signatures on subscription agreements and side letter",
+        "Unaudited financial statements only",
+        "KYC/AML procedures planned but not implemented",
+        "Missing closing date specifications"
       ],
       "completeness_score": 75
     }
   },
   "lens_cache": {
-    "Executive": "## Deal snapshot\n- **Deal name:** NovaTech LLC Series A Preferred Units\n- **Description:** AI-powered carbon credit verification platform raising Series A funding\n- **Asset class:** Private equity\n- **Structure:** Reg D 506(c) tokenized preferred units on Ethereum via tZERO platform\n- **Jurisdiction:** Delaware\n\n## Key numbers\n- **Raise target:** $5,000,000 maximum\n- **Pre-money valuation:** $18,000,000\n- **Post-money valuation:** $23,000,000\n- **Price per token:** $4.50\n- **Total tokens:** 1,111,111 tokens\n- **Lockup period:** 12 months\n- **Investor type:** Accredited investors only\n\n## Management\n- **CEO:** Javier Martinez\n- **CTO:** Sarah Chen\n- **CFO:** Raj Patel\n- **Advisors:** Dr. Lisa Huang, Mark Thompson\n- **Legal counsel:** Kirkland & Ellis LLP\n- **Platform/Transfer agent:** tZERO Securities, LLC / tZERO Transfer Services, LLC\n\n## Recommendation\n- **Decision:** CONDITIONAL GO\n- **Rationale:** Strong technical team and growing SaaS metrics ($1.2M ARR, 76.7% gross margin) with established legal/platform infrastructure\n- **Rationale:** Critical document inconsistencies and missing audited financials require resolution before proceeding\n- **Rationale:** 18-month runway and clear tokenization pathway via tZERO provide reasonable execution timeline\n\n## Top risks\n- **1. Document inconsistencies:** Entity name conflicts (NovaTech Inc. vs LLC) and subscription amount discrepancies ($1.8M vs $2.1M vs $750K across documents)\n- **2. Financial transparency:** Missing audited financial statements and unspecified valuation methodology for $18M pre-money valuation\n- **3. Operational cash flow:** $340K net loss with $50K monthly burn rate and limited 18-month runway creates funding pressure\n\n## Key dates\n- Not specified in documents",
-    "Legal": "## Regulatory framework\n- **Exemption type:** Rule 506(c) of Regulation D with general solicitation permitted\n- **Filing status:** Form D filed\n- **Investor qualification requirements:** Accredited investors only with third-party verification required\n- **Transfer restrictions:** 12-month lockup, manager consent required, right of first refusal, securities law compliance\n\n## Document obligations\n- **Liquidation preference:** 1x non-participating preferred with 8% preferred return required\n- **Investor verification:** Third-party accredited investor verification mandatory under 506(c)\n- **Transfer restrictions:** Manager consent and right of first refusal enforcement obligations\n- **AML compliance:** Anti-money laundering screening and reporting requirements\n- **Securities law compliance:** Ongoing transfer restriction monitoring and enforcement\n- **Geographic restrictions:** Limited to United States and EMEA jurisdictions only\n\n## Missing documents\n- **Audited financial statements:** Required for institutional investor due diligence and compliance\n- **IP assignments:** Critical for confirming company ownership of core AI technology platform\n- **Employment agreements:** Needed to verify key personnel retention and confidentiality\n- **Customer contracts:** Essential for revenue validation and business model verification\n- **Technology licenses:** Required to confirm third-party software usage rights\n- **Insurance policies:** Necessary for risk assessment and coverage verification\n- **Executed subscription agreements:** Core transaction documents not provided\n\n## KYC/AML readiness\n- **Verification process status:** Framework established but provider selection pending\n- **Accreditation method:** Third-party verification system per 506(c) requirements\n- **AML screening evidence:** Required but specific procedures not documented\n- **Provider gap:** KYC/AML service provider not yet selected or contracted\n- **Documentation gap:** Detailed screening procedures and reporting protocols missing\n- **Technology gap:** On-chain credential verification system not implemented\n\n## Compliance gaps\n- **CRITICAL:** Entity name inconsistency between operating agreement (NovaTech Inc.) and other documents (NovaTech LLC)\n- **CRITICAL:** Subscription amount discrepancies across documents ($1.8M vs $2.1M vs $750K)\n- **HIGH:** Missing executed subscription agreements for transaction completion\n- **HIGH:** KYC/AML provider selection and procedures documentation required\n- **MEDIUM:** Audited financial statements needed for institutional investor requirements\n- **MEDIUM:** Use of proceeds not specified in offering documents\n\n## Flags and blockers\n- **Entity name mismatch:** Legal entity confusion could invalidate agreements and require document amendments\n- **Subscription amount conflicts:** Material discrepancies require immediate reconciliation before closing\n- **Missing executed subscriptions:** Cannot close without binding investor commitments\n- **Incomplete KYC/AML framework:** Provider selection and procedure documentation required for compliance\n- **Form D amount mismatch:** $750K filing inconsistent with $5M maximum raise target",
-    "Finance": "## Valuation summary\n- **Pre-money valuation:** $18,000,000\n- **Post-money valuation:** $23,000,000\n- **Methodology:** Not specified in documents\n- **Price per token:** $4.50 per token (1,111,111 tokens total)\n\n## Financial performance\n- **Revenue:** $1,200,000 ARR with 76.7% gross margin\n- **Gross margin:** 76.7%\n- **Net loss:** $340K net loss in 2025 (unaudited)\n- **Cash position:** $890K cash on hand\n- **Runway:** 18-month runway at $50K monthly burn rate\n\n## Cap table\n- **Founders:** 62% of 4M units outstanding pre-Series A\n- **Seed investors:** 23% of 4M units outstanding pre-Series A\n- **ESOP:** 15% of 4M units outstanding pre-Series A\n- **Major discrepancy:** Subscription amounts vary significantly - $1,800,000 in subscription agreement vs $2,100,000 in cap table vs $750,000 in Form D\n\n## Projections\n- **2026 revenue:** $3.2M projected\n- **2027 revenue:** $8.5M projected\n- **2028 revenue:** $18M projected\n- **Growth assumptions:** Not specified in documents\n- **Use of proceeds:** Not specified in documents\n\n## Fee structure\n- **Management fees:** Not specified in documents\n- **Carry:** Not specified in documents\n- **Placement fees:** Not specified in documents\n- **Preferred return:** 8% preferred return\n- **Liquidation preference:** 1x non-participating preferred liquidation preference\n\n## Financial flags\n- **Critical subscription discrepancy:** $1,350,000 variance between highest ($2,100,000 cap table) and lowest ($750,000 Form D) committed amounts\n- **Missing audited statements:** Only unaudited 2025 financial statements provided for $5M institutional raise\n- **High burn rate concern:** $50K monthly burn with only $890K cash suggests aggressive runway assumptions\n- **Valuation methodology gap:** $18M pre-money valuation lacks supporting methodology or comparable analysis",
-    "BD": "## Deal Overview\n- **Company:** NovaTech LLC operates an AI-powered carbon credit verification platform with $1.2M ARR and 76.7% gross margins\n- **Market Opportunity:** Carbon credit verification market with SaaS subscription model targeting growing ESG compliance demand\n- **Partner Interest:** Series A equity tokenization on institutional-grade platform with clear liquidity path and strong revenue foundation\n\n## Structure and Terms\n- **Deal Type:** Series A Preferred Units equity offering under Reg D 506(c)\n- **Raise Amount:** $5,000,000 maximum at $18M pre-money valuation\n- **Price Per Token:** $4.50 per token (1,111,111 total token supply)\n- **Asset Class:** Private equity with 1x non-participating preferred liquidation preference and 8% preferred return\n- **Lockup Period:** 12-month restriction period with manager consent required for transfers\n- **Investor Type:** Verified accredited investors only with $25,000 minimum investment\n\n## Tokenization\n- **Blockchain:** Ethereum network infrastructure\n- **Token Standard:** ERC-1400 security token standard\n- **Trading Venue:** Alternative Trading System (ATS) with Central Limit Order Book (CLOB)\n- **Settlement:** On-chain instant settlement mechanism\n\n## Key Parties\n- **Issuer:** NovaTech LLC (Delaware jurisdiction)\n- **Legal Counsel:** Kirkland & Ellis LLP\n- **Platform Provider:** tZERO Securities, LLC with tZERO Transfer Services as transfer agent\n\n## Liquidity Path\n- **Secondary Trading:** ATS CLOB structure for post-lockup trading\n- **ATS Platform:** tZERO Digital Asset Securities platform integration\n- **Timeline:** 12-month lockup period before secondary market access begins",
-    "Token Ops": "## Token parameters\n- **Blockchain:** Ethereum\n- **Standard:** ERC-1400\n- **Total supply:** 1,111,111 tokens\n- **Price per token:** $4.50\n- **Token name/symbol:** Not specified in documents\n\n## Smart contract configuration\n- **Whitelist requirements:** 506(c) verified accredited investors only\n- **Geographic restrictions:** United States and EMEA only\n- **Lockup enforcement:** 12-month lockup period programmatically enforced\n- **Dividend distribution mechanism:** Not specified in documents\n\n## Custody and transfer\n- **Custodian:** SPBD (Self-Protecting Blockchain Database)\n- **Transfer agent:** tZERO Transfer Services, LLC\n- **Transfer restriction enforcement:** Manager consent required, securities law compliance checks\n- **ROFR mechanics:** Right of first refusal applies to all transfers\n\n## Secondary trading readiness\n- **ATS eligibility:** Configured for ATS trading\n- **Trading model:** CLOB (Central Limit Order Book)\n- **Settlement mechanism:** On-chain instant settlement\n- **On-chain credential requirements:** Not implemented\n\n## KYC/AML readiness\n- **Verification provider:** KYC/AML provider selection pending\n- **On-chain credential type:** Not implemented\n- **Screening status:** AML screening evidenced but procedures not documented\n- **Whitelist readiness:** Third-party 506(c) accreditation verification present\n\n## Blockers and action items\n- **CRITICAL:** Entity name inconsistency - 'NovaTech Inc.' vs 'NovaTech LLC' must be resolved\n- **CRITICAL:** Subscription amount discrepancies - $1.8M vs $2.1M vs $750K across documents\n- **HIGH:** KYC/AML provider must be selected and integrated\n- **HIGH:** On-chain credential system implementation required\n- **HIGH:** Missing executed subscription agreements and side letters\n- **MEDIUM:** Token name and symbol must be defined\n- **MEDIUM:** Dividend distribution mechanism requires specification",
-    "Investor": "## The offering\n- **Asset:** Series A Preferred Units in NovaTech LLC, an AI-powered carbon credit verification platform\n- **Issuer:** NovaTech LLC (Delaware jurisdiction)\n- **Structure:** Reg D 506(c) private placement with 1x non-participating preferred liquidation preference\n- **Tokenization platform:** tZERO Securities platform using ERC-1400 tokens on Ethereum\n\n## Investment terms\n- **Minimum investment:** $ 25,000\n- **Price per token:** $ 4.50 per token\n- **Total raise:** $ 5,000,000 maximum\n- **Lockup period:** 12 months from closing\n- **Liquidation preference:** 1x non-participating preferred with 8% preferred return\n- **Anti-dilution:** Not specified in documents\n- **Distribution mechanism:** Not specified in documents\n\n## The company\n- **Business:** AI-powered carbon credit verification platform operating on SaaS subscription model\n- **Market traction:** $ 1,200,000 ARR with 76.7% gross margin, projecting $ 3.2M (2026), $ 8.5M (2027), $ 18M (2028) revenue\n- **CEO:** Javier Martinez, **CTO:** Sarah Chen, **CFO:** Raj Patel, **Advisors:** Dr. Lisa Huang and Mark Thompson\n\n## Risk factors\n- **HIGH:** Early stage company with $ 340K net loss and 18-month cash runway \u2014 stated in documents\n- **HIGH:** Limited liquidity for tokenized securities \u2014 stated in documents\n- **MEDIUM:** Competitive carbon credit market \u2014 stated in documents\n- **MEDIUM:** Technology development risk for AI platform \u2014 stated in documents\n- **MEDIUM:** Regulatory changes in carbon credit space \u2014 stated in documents\n\n## Returns and distributions\n- **Expected returns:** 8% preferred return with 1x non-participating liquidation preference\n- **Distribution mechanism:** Not specified in documents\n- **Distribution timing:** Not specified in documents\n\n## Liquidity and exit\n- **Lockup expiry:** 12 months from closing date\n- **Secondary trading:** tZERO ATS CLOB (Alternative Trading System Central Limit Order Book)\n- **Settlement:** On-chain instant settlement via Ethereum blockchain\n\n## Eligibility\n- **Accreditation:** Accredited investors only with third-party 506(c) verification required\n- **Geographic restrictions:** United States and EMEA regions only\n- **Additional criteria:** Manager consent required for transfers, right of first refusal applies"
+    "Executive": "## Deal snapshot\n- **Deal name:** NovaTech LLC Series A Preferred Units\n- **Description:** AI-powered carbon credit verification platform raising $5M in tokenized Series A Preferred Units\n- **Asset class:** Private equity\n- **Structure:** Reg D 506(c) offering with ERC-1400 tokens on Ethereum\n- **Jurisdiction:** Delaware\n\n## Key numbers\n- **Raise target:** $5,000,000 maximum\n- **Pre-money valuation:** $18,000,000\n- **Post-money valuation:** $23,000,000\n- **Price per token:** $4.50\n- **Total tokens:** 1,111,111 tokens\n- **Lockup period:** 12 months\n- **Investor type:** Accredited investors only (506(c))\n\n## Management\n- **Javier Martinez:** CEO\n- **Sarah Chen:** CTO\n- **Raj Patel:** CFO\n- **Legal counsel:** Kirkland & Ellis LLP\n- **Platform/transfer agent:** tZERO Securities, LLC / tZERO Transfer Services, LLC\n\n## Recommendation\n- **Decision:** CONDITIONAL GO\n- **Rationale:** Strong revenue traction ($1.2M ARR, 76.7% gross margin) and experienced legal/tech infrastructure\n- **Rationale:** Critical compliance gaps require resolution: missing KYC/AML implementation, unsigned agreements, and financial statement inconsistencies\n- **Rationale:** 18-month cash runway provides adequate buffer for execution\n\n## Top risks\n- **1. Compliance gaps:** KYC/AML procedures planned but not implemented, missing executed signatures on subscription agreements\n- **2. Financial inconsistencies:** Cap table shows $2.1M raised vs Form D $750K sold, subscription agreements show $1.8M received\n- **3. Documentation deficiencies:** Entity name inconsistencies (NovaTech Inc. vs LLC), Form D filing date before first sale date, missing audited financials\n\n## Key dates\n- **January 15, 2026:** Form D filing date\n- **January 20, 2026:** First sale date\n- Not specified in documents for other key milestones",
+    "Legal": "## Regulatory framework\n- **Exemption type:** Reg D 506(c) with general solicitation permitted\n- **Filing status:** Form D filed (though filing date precedes first sale date)\n- **Investor qualification requirements:** Verified accredited investors only under 506(c)\n- **Transfer restrictions:** 12-month lockup, manager consent required, right of first refusal\n\n## Document obligations\n- **Preferred return:** 8% annual preferred return to Series A holders\n- **Liquidation preference:** 1x non-participating liquidation preference\n- **Manager consent:** Required for all unit transfers beyond lockup period\n- **Right of first refusal:** Company maintains ROFR on all proposed transfers\n- **Accreditation verification:** Third-party verification required for all investors under 506(c)\n- **Geographic restrictions:** Offering excluded from sanctioned jurisdictions\n- **Minimum investment:** $25,000 threshold per investor\n\n## Missing documents\n- **Audited financial statements:** Required for institutional investor due diligence and SEC compliance\n- **Tax returns:** Needed to verify financial condition and compliance history\n- **Intellectual property assignments:** Critical for asset protection in tech company acquisition\n- **Customer contracts:** Essential to validate revenue projections and business model\n- **Executed subscription agreements:** Missing signatures create enforceability issues\n\n## KYC/AML readiness\n- **Verification process status:** Framework present but not operational\n- **Accreditation method:** 506(c) third-party verification planned\n- **AML screening evidence:** No evidence of AML screening procedures\n- **Implementation gap:** KYC/AML procedures noted as planned but not yet implemented\n- **Provider gap:** KYC/AML verification provider marked as planned, not selected\n\n## Compliance gaps\n- **CRITICAL:** Missing executed signatures on subscription agreements and side letters\n- **CRITICAL:** KYC/AML procedures planned but not operational for live offering\n- **HIGH:** Form D filing date (January 15, 2026) precedes first sale date (January 20, 2026)\n- **HIGH:** Cap table discrepancies ($2,100,000 vs $750,000 vs $1,800,000)\n- **MEDIUM:** Entity name inconsistency (NovaTech Inc. vs NovaTech LLC)\n- **MEDIUM:** Unaudited financial statements only\n\n## Flags and blockers\n- **Entity name mismatch:** Operating agreement shows \"NovaTech Inc.\" while all other documents show \"NovaTech LLC\"\n- **Financial reporting conflicts:** Three different amounts reported for funds raised across documents\n- **Form D timing error:** Filing date cannot precede first sale date under securities law\n- **Unsigned agreements:** Subscription agreements lack executed signatures, creating enforceability risk\n- **Missing closing date:** No specified closing date for the offering",
+    "Finance": "## Valuation summary\n- **Pre-money valuation:** $18,000,000\n- **Post-money valuation:** $23,000,000\n- **Methodology:** Not specified in documents\n- **Price per token:** $4.50 per Series A Preferred Unit\n\n## Financial performance\n- **Revenue:** $1,200,000 ARR (2025)\n- **Gross margin:** 76.7%\n- **Net income:** $340,000 net loss (2025)\n- **Cash position:** $890,000\n- **Runway:** 18 months\n\n## Cap table\n- **Existing units:** 4,000,000 total units outstanding (percentage breakdown not specified)\n- **Series A units:** 1,111,111 additional units (24.3% of post-money total)\n- **Cap table discrepancy:** Shows $2,100,000 raised vs Form D showing $750,000 sold\n- **Subscription agreement discrepancy:** Shows $1,800,000 received vs cap table $2,100,000\n\n## Projections\n- **2026 revenue:** $3,200,000\n- **2027 revenue:** $8,500,000\n- **2028 revenue:** $18,000,000\n- **Growth assumptions:** Not specified in documents\n- **Use of proceeds:** 40% platform development, 25% sales/marketing, 20% operations, 15% reserve\n\n## Fee structure\n- **Management fees:** Not specified in documents\n- **Carry:** Not specified in documents\n- **Placement fees:** Not specified in documents\n- **Preferred return:** 8% to Series A holders\n- **Liquidation preference:** 1x non-participating\n\n## Financial flags\n- **Committed amounts inconsistency:** Cap table shows $2,100,000 vs Form D $750,000 vs subscription agreements $1,800,000\n- **Filing date anomaly:** Form D filed January 15, 2026 before first sale date January 20, 2026\n- **Unaudited financials:** Only unaudited 2025 statements provided\n- **Entity name mismatch:** \"NovaTech Inc.\" in operating agreement vs \"NovaTech LLC\" in other documents",
+    "BD": "## Deal Overview\n- **Company:** NovaTech LLC operates an AI-powered carbon credit verification platform with $1.2M ARR and 76.7% gross margins\n- **Market Opportunity:** Targeting the growing carbon credit verification market with projected revenue growth from $1.2M to $18M by 2028\n- **Partner Interest:** Tokenized equity deal combining climate tech growth story with digital asset infrastructure for enhanced liquidity\n\n## Structure and Terms\n- **Deal Type:** Series A Preferred Units offering under Reg D 506(c)\n- **Raise Amount:** $5,000,000 maximum raise\n- **Price Per Token:** $4.50 per token (1,111,111 total tokens)\n- **Asset Class:** Private equity with 8% preferred return and 1x liquidation preference\n- **Lockup Period:** 12 months from closing\n- **Investor Type:** Accredited investors only with third-party verification\n\n## Tokenization\n- **Blockchain:** Ethereum network\n- **Token Standard:** ERC-1400 security token standard\n- **Trading Venue:** ATS CLOB (Central Limit Order Book)\n- **Settlement:** On-chain instant settlement mechanism\n\n## Key Parties\n- **Issuer:** NovaTech LLC (Delaware jurisdiction)\n- **Legal Counsel:** Kirkland & Ellis LLP\n- **Platform:** tZERO Securities, LLC with tZERO Transfer Services as transfer agent\n\n## Liquidity Path\n- **Secondary Trading:** ATS CLOB structure for post-lockup trading\n- **ATS Details:** tZERO Digital Asset Securities platform integration\n- **Timeline:** Secondary trading available after 12-month lockup period expires",
+    "Token Ops": "## Token parameters\n- **Blockchain:** Ethereum\n- **Standard:** ERC-1400\n- **Total supply:** 1,111,111 tokens\n- **Price per token:** $4.50\n- **Token name/symbol:** Not specified in documents\n\n## Smart contract configuration\n- **Whitelist requirements:** Accredited investors only (506(c) verification required)\n- **Geographic restrictions:** Excluding sanctioned jurisdictions\n- **Lockup enforcement:** 12-month lockup period programmatically enforced\n- **Dividend distribution mechanism:** 8% preferred return to Series A holders\n\n## Custody and transfer\n- **Custodian:** SPBD (Self-Paced Blockchain Delivery)\n- **Transfer agent:** tZERO Transfer Services, LLC\n- **Transfer restriction enforcement:** Manager consent required, automated through smart contract\n- **ROFR mechanics:** Right of first refusal enforced on-chain for all transfers\n\n## Secondary trading readiness\n- **ATS eligibility:** Qualified for ATS CLOB trading\n- **Trading model:** Central limit order book (CLOB)\n- **Settlement mechanism:** On-chain instant settlement\n- **On-chain credential requirements:** Accredited investor verification via 506(c) third-party\n\n## KYC/AML readiness\n- **Verification provider:** Planned but not yet implemented\n- **On-chain credential type:** 506(c) third-party accreditation verification\n- **Screening status:** AML screening evidenced as false\n- **Whitelist readiness:** KYC/AML documentation requirement noted but not implemented\n\n## Blockers and action items\n- **CRITICAL:** Implement KYC/AML verification provider and procedures before token issuance\n- **CRITICAL:** Complete AML screening for all investors before whitelist activation\n- **HIGH:** Resolve entity name inconsistency (NovaTech Inc. vs NovaTech LLC) across all documents\n- **HIGH:** Reconcile cap table discrepancies ($2.1M vs $750K vs $1.8M funding amounts)\n- **MEDIUM:** Obtain executed signatures on subscription agreements and side letters\n- **MEDIUM:** Specify token name and symbol for smart contract deployment",
+    "Investor": "## The offering\n- **What:** Series A Preferred Units in AI-powered carbon credit verification platform\n- **By whom:** NovaTech LLC (Delaware entity)\n- **Structure:** Reg D 506(c) offering with general solicitation permitted\n- **Platform:** tZERO Securities ecosystem with ERC-1400 tokens on Ethereum\n\n## Investment terms\n- **Minimum investment:** $ 25,000\n- **Price per token:** $ 4.50 per token\n- **Total raise:** $ 5,000,000 maximum\n- **Lockup period:** 12 months with manager consent required for transfers\n- **Liquidation preference:** 1x non-participating preference to Series A holders\n- **Anti-dilution:** Not specified in documents\n- **Distribution mechanism:** 8% preferred return to Series A holders\n\n## The company\n- **Business:** AI-powered platform for carbon credit verification and management\n- **Market opportunity:** $ 1,200,000 ARR in 2025 with 76.7% gross margin, projecting $ 18,000,000 revenue by 2028\n- **Management:** Javier Martinez (CEO), Sarah Chen (CTO), Raj Patel (CFO)\n\n## Risk factors\n- **Market competition:** MEDIUM \u2014 stated in documents as standard market risk\n- **Technology risks:** HIGH \u2014 AI platform dependent on evolving technology stack\n- **Regulatory changes:** HIGH \u2014 carbon credit market subject to changing environmental regulations\n- **Liquidity limitations:** HIGH \u2014 12-month lockup with restricted secondary trading\n- **Financial runway:** MEDIUM \u2014 flagged by analysis, only 18-month cash runway with $ 340K net loss\n\n## Returns and distributions\n- **Expected returns:** 8% preferred return with 1x liquidation preference\n- **Distribution mechanism:** Preferred distributions to Series A holders before common\n- **Timing:** Not specified in documents\n\n## Liquidity and exit\n- **Lockup expiry:** 12 months from investment date\n- **Secondary trading:** ATS CLOB (Alternative Trading System Central Limit Order Book) via tZERO\n- **Settlement:** On-chain instant settlement through Ethereum blockchain\n\n## Eligibility\n- **Accreditation:** Must be accredited investor verified through third-party 506(c) process\n- **Geographic restrictions:** Open to all jurisdictions excluding sanctioned countries\n- **Qualification criteria:** Standard accredited investor income/net worth thresholds apply"
   }
 }
